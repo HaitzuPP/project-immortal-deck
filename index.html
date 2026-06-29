@@ -157,7 +157,7 @@ body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#3a3d42;
  <div class="ll d">IF DISPUTED</div>
  <div class="step amb"><b>A. Client flags batch</b><span>Quality felt below spec after delivery</span></div>
  <div class="arr">&rarr;</div>
- <div class="step amb"><b>B. Re-verify the sample</b><span>Disputed clips re-scored on the held-out eval and fresh gold, the neutral arbiter</span></div>
+ <div class="step amb"><b>B. Re-verify the sample</b><span>Disputed clips re-scored on the client-supplied held-out eval and fresh gold, a neutral arbiter</span></div>
  <div class="arr">&rarr;</div>
  <div class="step bad"><b>C1. Shortfall confirmed</b><span>Free rework or partial refund; alpha for failed items withheld or clawed back</span></div>
  <div class="step ok" style="margin-left:.45vw"><b>C2. Spec met</b><span>Delivery upheld with the evidence; no refund</span></div>
@@ -194,7 +194,7 @@ body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#3a3d42;
 <tr><td>Targon (SN4)</td><td>Confidential GPU compute and inference (Intel TDX); enterprise</td><td>~$10.4M ARR self-reported and unaudited</td><td>~$77M; raised $10.5M Series A</td><td>Enterprise demand and credibility; its unverifiable revenue is the gap we close</td></tr>
 <tr><td>Lium (SN51)</td><td>Peer-to-peer GPU rental; hourly burst H100s, paid in crypto</td><td>Rental revenue reported to exceed token emissions</td><td>Top-5 subnet by market cap</td><td>Real demand can outpace the token subsidy; closest pure-marketplace comp</td></tr>
 </table></div>
-<div class="takeaway">Bittensor revenue is hard to verify on-chain because it records token flows, not API calls. <span>That opacity is exactly what our provable-quality model removes for data</span>.</div>
+<div class="takeaway">Compute is self-verifying; data is not, so verification is our moat, not overhead. Bittensor revenue is also hard to verify on-chain, <span>the opacity our provable-quality model removes</span>.</div>
 <div class="foot"><span>Project Immortal &middot; Two-Sided Miner Market</span><span>11</span></div></section><section class="slide">
 <div class="kicker">Supply side</div>
 <div class="atitle">Who we aim to attract: a competitive spectrum, because we pay for output, not method</div>
@@ -211,6 +211,7 @@ body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#3a3d42;
 <div class="rule" style="width:14vw;margin-top:.6vw"></div>
 <div class="big">Make the <em>un-gameable anchor</em> cheap enough to use densely, make every cheaper signal earn trust by agreeing with it, and pay only for <em>accepted, verified work</em> backed by real client demand.</div>
 <div class="sub">That is what separates a defensible annotation subnet from one that pays miners to produce plausible-looking garbage.</div>
+<div class="sub" style="margin-top:.7vw;font-size:1.05vw">We are pre-mainnet. This is a bet on structure and timing, not on traction yet.</div>
 <div class="foot"><span>Project Immortal &middot; Two-Sided Miner Market</span><span>13</span></div></section></div><div id='nav'></div><div class='hint'>&larr; / &rarr; to navigate</div><script>
 const slides=[...document.querySelectorAll('.slide')];const nav=document.getElementById('nav');let i=0;
 slides.forEach((_,k)=>{const b=document.createElement('button');b.onclick=()=>go(k);nav.appendChild(b);});
